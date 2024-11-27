@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biro Jasa Zidan</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="fade-in">Biro Jasa Zidan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero slide-in">
+            <h2>Solusi Mudah untuk Semua Urusan Anda</h2>
+            <p>Biro jasa terpercaya untuk mengurus dokumen, perizinan, dan kebutuhan lainnya.</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Layanan Kami</h2>
+        <div class="services-grid">
+            <div class="service zoom-in">
+                <h3>Pembuatan Dokumen</h3>
+                <p>Kami membantu pengurusan dokumen penting dengan cepat dan aman.</p>
+            </div>
+            <div class="service zoom-in">
+                <h3>Perizinan</h3>
+                <p>Urus perizinan usaha atau dokumen lainnya tanpa ribet.</p>
+            </div>
+            <div class="service zoom-in">
+                <h3>Jasa Konsultasi</h3>
+                <p>Konsultasi profesional untuk kebutuhan bisnis atau pribadi Anda.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Tentang Kami</h2>
+        <p class="fade-in">
+            Biro Jasa Zidan adalah penyedia jasa profesional yang berkomitmen memberikan solusi terbaik untuk kebutuhan Anda. 
+            Dengan tim berpengalaman, kami siap melayani Anda dengan sepenuh hati.
+        </p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Hubungi Kami</h2>
+        <p>Silakan kirim pesan kepada kami melalui form di bawah ini, dan kami akan segera merespon.</p>
+        <form action="process.php" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda" required></textarea>
+
+            <button type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Biro Jasa Zidan. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
